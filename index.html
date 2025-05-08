@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> FeedBack Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+   <h1> Student FeedBack Form</h1>
+   <form action="#" method="post">
+       <label class="bold-label" for="name">Name of the Student:</label>
+       <input type="text" id="name" name="name" required>
+       <br><br>
+
+       <label class="bold-label" for="regd">Registration Number:</label>
+       <input type="text" id="regd" name="regd" required>
+       <br><br>
+       <label class="bold-label" for="branch">Branch:</label>
+       <input type="text" id="branch" name="branch" required>
+       <br><br>
+       <label class="bold-label" for="year"> Year of passing:</label>
+       <input type="number" id="year" name="year" min="2020" max="2026" required>
+       <br><br>
+       <label class="bold-label"> Programming skills learned:</label>
+       <div class="skills">
+            <input type="checkbox" id="C" name="skills" value="C">
+            <label for="C">C</label><br>
+            <input type="checkbox" id="Python" name="skills" value="Python">
+            <label for="Python"> Python</label><br>
+            <input type="checkbox" id="Java" name="skills" value="Java">
+            <label for="Java">Java</label><br>
+            <input type="checkbox" id="HTML" name="skills" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="checkbox" id="CSS" name="skills" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="checkbox" id="javaScript" name="skills" value="JavaScript">
+            <label for="JavaScript">JavaScript</label><br>
+      </div>
+      <br>
+
+       <label class="bold-label">Feedback:</label>
+       <div class="stars-rating" id="rating-stars">
+          <label > 
+             <input type="radio" name="rating" value="5"/>
+                &#9733;&#9733;&#9733;&#9733;&#9733;
+         </label><br><label> 
+             <input type="radio" name="rating" value="5"/>
+                &#9733;&#9733;&#9733;&#9733;
+         </label><br>
+         <label> 
+             <input type="radio" name="rating" value="5"/>
+                &#9733;&#9733;&#9733;
+         </label><br>
+         <label> 
+             <input type="radio" name="rating" value="5"/>
+                &#9733;&#9733;
+         </label><br>
+         <label> 
+             <input type="radio" name="rating" value="5"/>
+                &#9733;
+         </label><br>
+     </div>
+     
+    <div class="submit-container">
+         <input type="submit" value="submit Feedback" class="submit-btn">
+    </div>
+   </form>
+</div>
+
+</body>
+</html>
+
+          

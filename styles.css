@@ -1,0 +1,66 @@
+.container h1{
+      color:black;
+      background-color:green;
+      text-align:center;
+      border:1px solid green;
+      padding:20px;
+      margin:20px auto;
+     width:100%;
+     max-width:400px;
+     
+      
+}
+
+.container{
+padding:50px;
+box-sizing:border-box;
+
+}
+
+form{
+text-align:left;
+width:100%;
+max-width:400px;
+margin:20px auto;
+padding:20px;
+background-color:white;
+border-radius:8px ;
+border:1px solid green;
+box-shadow:0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+padding:0;
+background-color:white;
+
+}
+
+input{
+border:1px solid black;
+outline:none;
+padding:5px;
+font-sie:16px;
+background:transparent;
+}
+
+.bold-label{
+font-weight:bold;
+}
+.submit-container{
+text-align:center;
+margin-top:20px;
+}
+
+.submit-btn{
+background-color:green;
+color:black;
+border:none;
+padding:10px20px;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
